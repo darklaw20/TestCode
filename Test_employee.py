@@ -38,6 +38,9 @@ class TestEmployee(unittest.TestCase):
 
     def test_apply_raise(self):
         print('test_apply_raise')
+        emp_1 = employee('kevin','lopez',454222)
+        emp_2 = employee('kol','lopez',454222)        
+        
         self.emp_1.apply_raise()
         self.emp_2.apply_raise()
 
